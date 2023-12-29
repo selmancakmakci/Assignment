@@ -1,0 +1,123 @@
+
+.currency-option{
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 18px;
+}
+
+.currency-option:hover{
+    background-color:cyan
+    
+}
+
+form{
+    display: inline-table;
+    padding: 1.1em;
+    border: 2px solid;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 17px;
+    margin-right: 17px;
+    
+    margin-bottom: 15px;
+    font-weight: bold;
+    background-color:rgb(209, 229, 229);
+
+}
+
+.form-icerigi{
+    width: 18.9em;
+    border: 3px solid;
+    border-radius: 15px;
+    background-color: rgb(113, 168, 168);
+   
+
+}
+
+.currencies{
+    border: 2px solid;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    margin-right: 17px;
+    margin-left: 17px;
+    text-align: center;
+    padding-top: 18px;
+    background-color: rgb(209, 229, 229);
+}
+
+
+
+.header{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid;
+    margin-right: 17px;
+    margin-left: 17px;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    
+}
+
+
+
+button{
+    background-color:aquamarine;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bolder;
+    
+}
+
+
+
+#result{
+    margin-left: 53px;
+}
+#amount{
+    margin-left: 43px;
+}
+
+#currencyRate{
+    margin-left: 10px;
+}
+
+input{
+
+    width: 110px;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+}
+label{
+    /*border: 2px solid;*/
+    border-radius:5px ;
+    
+}
+
+#calculate{
+    margin-right: 45px;
+}
+#Clear{
+    width: 40%;
+}
+
+.button-option{
+    padding: 5px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.button-option:hover{
+    background-color: aqua;
+}

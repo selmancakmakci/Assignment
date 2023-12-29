@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Assignment</title>
+</head>
+<body>
+    
+    
+    <div class="form-icerigi">
+        <div class="header"><h2 >EXCHANGE</h2></div>
+    <div class="currencies">
+        <button id="USD" onclick="rateUSD()" class="currency-option">USD</button>
+        <button id="EUR" onclick="rateEUR()" class="currency-option">EUR</button>
+        <button id="CHF" onclick="rateCHF()" class="currency-option">CHF</button><br><br>
+    </div>
+
+        <form id="myForm">
+        <label for="cRate">Current Rate:</label>
+        <input type=""  id="currencyRate" name="currencyRate" readonly><br><br>
+        <label for="amount">Amount:</label>
+        <input type="" id="amount" ><br><br>
+        <label for="result">Result:</label>
+        <input type="" name="result" id="result" readonly><br><br><br>
+        
+        
+        <button class="button-option" id="calculate" type="button"  onclick="lastResult()" value="calculate"> Calculate</button>
+        <button class="button-option" id="Clear" type="button" onclick="clearForm()" value="Clear">Clear</button>
+        
+    </form>
+    </div>
+        
+        <script src="/Js/script.js"></script>
+</body>
+</html>
